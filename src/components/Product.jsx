@@ -5,7 +5,7 @@ export default function Product(props) {
     return (
         <div className='card'>
             <div className="card--image">
-                <img src={`../src/assets/images/${props.image}`} alt="product image" className='product--image' />
+                <img src={`/images/${props.image}`} alt="product image" className='product--image' />
 
             </div>
             <p className='product--type'>{props.type}</p>
